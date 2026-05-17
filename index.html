@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple QR Generator</title>
+    <meta name="description" content="무료 QR 코드 생성기. URL을 입력하면 즉시 QR 코드를 생성합니다. SVG, PNG(128~1024px) 다운로드 및 클립보드 복사를 지원합니다. 회원가입 없이, 광고 없이, 완전 무료." />
+    <meta name="keywords" content="QR코드, QR 생성기, 무료 QR, QR code generator, free QR, QR 코드 만들기" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="https://qr.example.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Simple QR Generator" />
+    <meta property="og:description" content="URL 입력 → QR 코드 즉시 생성. SVG/PNG 다운로드, 클립보드 복사. 완전 무료, 광고 없음." />
+    <meta property="og:url" content="https://qr.example.com/" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="Simple QR Generator" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Simple QR Generator" />
+    <meta name="twitter:description" content="URL 입력 → QR 코드 즉시 생성. SVG/PNG 다운로드, 클립보드 복사. 완전 무료." />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Simple QR Generator",
+      "url": "https://qr.example.com/",
+      "description": "무료 QR 코드 생성기. URL을 입력하면 즉시 QR 코드를 생성합니다. SVG, PNG 다운로드 및 클립보드 복사를 지원합니다.",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "KRW"
+      },
+      "featureList": ["QR 코드 생성", "SVG 다운로드", "PNG 다운로드 (128, 256, 512, 1024px)", "클립보드 복사"],
+      "inLanguage": "ko"
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
