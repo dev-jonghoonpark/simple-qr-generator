@@ -9,6 +9,8 @@ const messages = {
     copied: "복사됨!",
     failed: "실패",
     footer: "완전 무료 · 광고 없음 · 회원가입 불필요",
+    qrColor: "QR 색상",
+    bgColor: "배경 색상",
   },
   en: {
     title: "Simple QR Generator",
@@ -20,6 +22,8 @@ const messages = {
     copied: "Copied!",
     failed: "Failed",
     footer: "100% Free · No Ads · No Sign-up",
+    qrColor: "QR Color",
+    bgColor: "Background",
   },
 } as const;
 
