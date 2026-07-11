@@ -1,0 +1,18 @@
+# Simple QR Generator
+
+> A free, no-signup QR code generator supporting SVG and PNG export with color customization.
+
+## Features
+- Real-time QR code generation from any URL
+- Download as SVG or PNG (128, 256, 512, 1024px)
+- Copy QR code to clipboard
+- Custom QR color and background with opacity control
+- Bilingual interface: Korean and English
+- No ads, no registration required
+- Works entirely in the browser (no server-side processing)
+
+## URL
+https://dev-jonghoonpark.github.io/simple-qr-generator/
+
+## Source Code
+https://github.com/dev-jonghoonpark/simple-qr-generator

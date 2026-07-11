@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dev-jonghoonpark.github.io/simple-qr-generator/sitemap.xml
