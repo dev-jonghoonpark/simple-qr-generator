@@ -63,6 +63,34 @@ export default function App() {
         copyStatus={copyStatus}
         t={t}
       />
+      <section className="seo-content">
+        <h2>{t.featuresTitle}</h2>
+        <p>{t.featuresDesc}</p>
+        <ul>
+          <li>{t.feature1}</li>
+          <li>{t.feature2}</li>
+          <li>{t.feature3}</li>
+          <li>{t.feature4}</li>
+        </ul>
+
+        <h2>{t.howToTitle}</h2>
+        <ol>
+          <li>{t.howTo1}</li>
+          <li>{t.howTo2}</li>
+          <li>{t.howTo3}</li>
+        </ol>
+
+        <h2>{t.faqTitle}</h2>
+        <dl className="faq-list">
+          <dt>{t.faq1Q}</dt>
+          <dd>{t.faq1A}</dd>
+          <dt>{t.faq2Q}</dt>
+          <dd>{t.faq2A}</dd>
+          <dt>{t.faq3Q}</dt>
+          <dd>{t.faq3A}</dd>
+        </dl>
+      </section>
+
       <footer className="footer">
         <a href="https://github.com/dev-jonghoonpark/simple-qr-generator" target="_blank" rel="noopener noreferrer" className="github-link">
           GitHub @dev-jonghoonpark

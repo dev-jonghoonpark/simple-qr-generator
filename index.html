@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-N7EKMTL45D"></script>
@@ -11,24 +11,29 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simple QR Generator</title>
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
+    <title>Simple QR Generator - 무료 QR 코드 생성기</title>
     <meta name="description" content="무료 QR 코드 생성기. URL을 입력하면 즉시 QR 코드를 생성합니다. SVG, PNG(128~1024px) 다운로드 및 클립보드 복사를 지원합니다. 회원가입 없이, 광고 없이, 완전 무료." />
-    <meta name="keywords" content="QR코드, QR 생성기, 무료 QR, QR code generator, free QR, QR 코드 만들기" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="canonical" href="https://qr.example.com/" />
+    <link rel="icon" type="image/svg+xml" href="/simple-qr-generator/favicon.svg" />
+    <link rel="canonical" href="https://dev-jonghoonpark.github.io/simple-qr-generator/" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Simple QR Generator" />
+    <meta property="og:title" content="Simple QR Generator - 무료 QR 코드 생성기" />
     <meta property="og:description" content="URL 입력 → QR 코드 즉시 생성. SVG/PNG 다운로드, 클립보드 복사. 완전 무료, 광고 없음." />
-    <meta property="og:url" content="https://qr.example.com/" />
+    <meta property="og:url" content="https://dev-jonghoonpark.github.io/simple-qr-generator/" />
     <meta property="og:locale" content="ko_KR" />
     <meta property="og:site_name" content="Simple QR Generator" />
+    <meta property="og:image" content="https://dev-jonghoonpark.github.io/simple-qr-generator/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Simple QR Generator" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Simple QR Generator - 무료 QR 코드 생성기" />
     <meta name="twitter:description" content="URL 입력 → QR 코드 즉시 생성. SVG/PNG 다운로드, 클립보드 복사. 완전 무료." />
+    <meta name="twitter:image" content="https://dev-jonghoonpark.github.io/simple-qr-generator/og-image.png" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -36,22 +41,51 @@
       "@context": "https://schema.org",
       "@type": "WebApplication",
       "name": "Simple QR Generator",
-      "url": "https://qr.example.com/",
+      "url": "https://dev-jonghoonpark.github.io/simple-qr-generator/",
       "description": "무료 QR 코드 생성기. URL을 입력하면 즉시 QR 코드를 생성합니다. SVG, PNG 다운로드 및 클립보드 복사를 지원합니다.",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript. Works in all modern browsers.",
       "offers": {
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "KRW"
       },
-      "featureList": ["QR 코드 생성", "SVG 다운로드", "PNG 다운로드 (128, 256, 512, 1024px)", "클립보드 복사"],
-      "inLanguage": "ko"
+      "featureList": [
+        "QR 코드 생성",
+        "SVG 다운로드",
+        "PNG 다운로드 (128, 256, 512, 1024px)",
+        "클립보드 복사",
+        "QR 색상 및 배경색 선택",
+        "투명도 조절"
+      ],
+      "inLanguage": "ko",
+      "isAccessibleForFree": true,
+      "author": {
+        "@type": "Person",
+        "name": "jonghoonpark",
+        "url": "https://github.com/dev-jonghoonpark"
+      },
+      "datePublished": "2025-07-01"
     }
     </script>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <h1>Simple QR Generator - 무료 QR 코드 생성기</h1>
+      <p>URL을 입력하면 즉시 QR 코드를 생성하는 무료 온라인 도구입니다. SVG, PNG(128, 256, 512, 1024px) 다운로드 및 클립보드 복사를 지원합니다.</p>
+      <p>이 도구를 사용하려면 JavaScript를 활성화해주세요.</p>
+      <h2>주요 기능</h2>
+      <ul>
+        <li>실시간 QR 코드 생성</li>
+        <li>SVG 및 PNG 형식 다운로드</li>
+        <li>클립보드 복사</li>
+        <li>QR 코드 색상 및 배경색 커스터마이징</li>
+        <li>투명도 조절</li>
+      </ul>
+      <p>완전 무료 · 광고 없음 · 회원가입 불필요</p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
